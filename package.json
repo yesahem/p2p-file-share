@@ -1,0 +1,16 @@
+{
+  "name": "p2p-fileshare",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "server": "bun run src/server.ts",
+    "client": "bun run src/client.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
