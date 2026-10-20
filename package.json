@@ -8,7 +8,8 @@
   },
   "scripts": {
     "server": "bun run src/server.ts",
-    "client": "bun run src/client.ts"
+    "client": "bun run src/client.ts",
+    "protocol": "bun run src/protocol.ts"
   },
   "peerDependencies": {
     "typescript": "^5"
